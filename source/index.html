@@ -8,47 +8,62 @@
     <title>Полиграфия Artactive</title>
   </head>
   <body>
+
     <header class="page-header">
-      <nav class="page-nav">
-        <a class="page-nav__logo" href="#">Artactive</a>
+      <div class="page-header__wrapper">
+        <a class="page-header__logo" href="#">Artactive</a>
 
-        <ul class="page-nav__menu">
-          <li>О нас</li>
-          <li>Услуги</li>
-          <li>Отзывы</li>
-          <li>FAQ</li>
-          <li>Контакты</li>
-        </ul>
+        <button class="page-header__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
 
-        <div class="page-nav__contact">
+        <nav class="page-nav">
+          <ul class="page-nav__menu">
+            <li>О нас</li>
+            <li>Услуги</li>
+            <li>Отзывы</li>
+            <li>FAQ</li>
+            <li>Контакты</li>
+          </ul>
+        </nav>
+
+        <div class="page-header__contact">
           <a href="tel:+79201488131">+7 (920) 148 81 31</a>
           <button class="button button--callme">Заказать звонок</button>
         </div>
-      </nav>
-      <b class="page-header__slogan">Размер не имеет значения</b>
-      <p class="hpage-eader__description">Оперативная полиграфия и широкоформатная печать любого размера</p>
-
-      <div class="page-header__cta-wrapper">
-        <button class="button">Заказать печать</button>
-        <p class="page-header__delivery-info"></p>
       </div>
     </header>
 
-    <article class="">
+    <section class="hero-block">
+      <div class="hero-block__wrapper">
+        <img src="img/hero-illustration-mobile.png" alt="Оперативная полиграфия и широкоформатная печать любого размера">
+        <div class="hero-block__content">
+          <b class="page-header__slogan">Размер не имеет значения</b>
+          <p class="hpage-eader__description">Оперативная полиграфия и широкоформатная печать любого размера</p>
+
+          <div class="page-header__cta-wrapper">
+            <button class="button">Заказать печать</button>
+            <p class="page-header__delivery-info">с доставкой по Ярославлю и Ярославской области</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <article>
       <h1 class="visually-hidden">Компания Artactive - полиграфические услуги</h1>
       <section class="about-us">
         <div class="about-us__wrapper">
-          <h2 class="about-us__header">1. О нас</h2>
-          <h3 class="about-us__subheader">Полный спектр услуг — от дизайна до печати</h3>
+          <div class="about-us__content-wrapper">
+            <h2 class="about-us__header">1. О нас</h2>
+            <h3 class="about-us__subheader">Полный спектр услуг — от дизайна до печати</h3>
 
-          <p>  К вашим услугам мы предлагаем полный спектр работ, начиная от печати открыток, чертежей, баннеров, растяжек, создания буклетов и эксклюзивных календарей, и заканчивая постпечатной обработкой. </p>
+            <p>  К вашим услугам мы предлагаем полный спектр работ, начиная от печати открыток, чертежей, баннеров, растяжек, создания буклетов и эксклюзивных календарей, и заканчивая постпечатной обработкой. </p>
 
-          <p>В копицентре не просто предоставляют услуги печати: мы ориентируемся на комплексное обслуживание. Все услуги, будь то оперативная цифровая печать открыток или разработка серии календарей, Вы можете получить в одном месте, воспользовавшись сопутствующими услугами копицентра. </p>
+            <p>В копицентре не просто предоставляют услуги печати: мы ориентируемся на комплексное обслуживание. Все услуги, будь то оперативная цифровая печать открыток или разработка серии календарей, Вы можете получить в одном месте, воспользовавшись сопутствующими услугами копицентра. </p>
 
-          <p>При этом работа выполняется в максимально сжатые сроки и не в ущерб качеству конечного результата, которое неизменно остается на высоте.</p>
+            <p>При этом работа выполняется в максимально сжатые сроки и не в ущерб качеству конечного результата, которое неизменно остается на высоте.</p>
+          </div>
+
+        <img src="img/service-path-mobile.png" alt="Схема нашей работы">
         </div>
-
-        <img src="#" alt="#">
 
       </section>
 
@@ -58,28 +73,32 @@
         <section class="services-banners">
 
           <div class="services-banners__wrapper">
-            <h3 class="services-banners__header">Широкоформатная печать баннеров, растяжек, афиш</h3>
 
-            <ul class="services-banners__list">
-              <li>подготовка макетов к печати, дизайн рекламных баннеров</li>
-              <li>срочная печать за 3 часа</li>
-              <li>проварка карманов и сварка нескольких изображений</li>
-              <li>пробивка люверсов и вварка монтажных тросов</li>
-              <li>изготовление цветопробы</li>
-              <li>доставка баннеров</li>
-            </ul>
 
-            <section class="consultation-block">
-              <p class="consultation-block__text">
-                <span class="consultation-block__header">Есть вопросы?</span>
-                <span class="consultation-block__caption">Закажите консультацию</span>
-              </p>
-              <button class="button">Заказать</button>
-            </section>
-          </div>
+            <div class="services-banners__content-wrapper">
+              <h3 class="services-banners__header">Широкоформатная печать баннеров, растяжек, афиш</h3>
+
+              <ul class="services-banners__list">
+                <li>подготовка макетов к печати, дизайн рекламных баннеров</li>
+                <li>срочная печать за 3 часа</li>
+                <li>проварка карманов и сварка нескольких изображений</li>
+                <li>пробивка люверсов и вварка монтажных тросов</li>
+                <li>изготовление цветопробы</li>
+                <li>доставка баннеров</li>
+              </ul>
+
+              <section class="consultation-block">
+                <p class="consultation-block__text">
+                  <span class="consultation-block__header">Есть вопросы?</span>
+                  <span class="consultation-block__caption">Закажите консультацию</span>
+                </p>
+                <button class="button">Заказать</button>
+              </section>
+            </div>
+
 
           <figure class="gallery">
-            <img src="" alt="">
+            <img src="img/gallery-miller-mobile.jpg" alt="Пример широкоформатной печати - реклама Miller">
             <div>
               <div class="gallery__navigation">
                 <button class="button gallery__navigation--back"><span class="visually-hidden">Вперед</span></button>
@@ -88,6 +107,8 @@
               </div>
             </div>
           </figure>
+
+          </div>
 
         </section>
 
@@ -130,7 +151,7 @@
       <section class="reviews">
         <h2 class="reviews__header">3. Отзывы</h2>
         <blockquote class="reviews__block">
-          <img class="reviews__photo" src="" alt="">
+          <img class="reviews__photo" src="img/reviews-aleksandrov.jpg" alt="Максим Александров">
           <div class="reviews__wrapper">
             <p class="reviews__text">Обратился в компанию АртАктив за визитками. Это мой первый опыт, поэтому немного нервничал, не знал, с чего начать. Остался доволен, потому что мне всё объяснили, показали и сделали по высшему разряду. Советую!</p>
             <cite class="reviews__author">Александров Максим, 24 года</cite>
