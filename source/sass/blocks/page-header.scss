@@ -8,3 +8,30 @@
 .page-header__contact {
   display: none;
 }
+.page-header__nav {
+  display: none;
+}
+
+@media (min-width: $tablet-width) {
+  .page-header__wrapper {
+    width: $tablet-width;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-header__wrapper {
+    width: $desktop-width;
+  }
+
+  .page-header__toggle {
+    display: none;
+  }
+
+  .page-header__nav {
+    display: block;
+  }
+
+  .page-header__contact {
+    display: block;
+  }
+}

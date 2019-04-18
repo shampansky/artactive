@@ -3,3 +3,17 @@
   margin: 0 auto;
   padding: 0 $padding;
 }
+
+@media (min-width: $tablet-width) {
+  .about-us__wrapper {
+    width: $tablet-width;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .about-us__wrapper {
+    width: $desktop-width;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}

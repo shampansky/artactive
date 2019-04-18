@@ -5,3 +5,20 @@
 .gallery__image-caption {
   order: -1;
 }
+
+@media (min-width: $tablet-width) {
+  .gallery__wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .gallery__image-caption {
+    order: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .gallery__wrapper {
+    justify-content: flex-start;
+  }
+}

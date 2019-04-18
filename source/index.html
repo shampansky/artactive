@@ -15,7 +15,7 @@
 
         <button class="page-header__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
 
-        <nav class="page-nav">
+        <nav class="page-header__nav page-nav">
           <ul class="page-nav__menu">
             <li>О нас</li>
             <li>Услуги</li>
@@ -132,21 +132,23 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
             <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error.</p>
 
-            <form class="consultation-form" action="index.html" method="post">
+            <form class="consultation-form consultation-form--small" action="index.html" method="post">
               <p class="consultation-form__text">
                 <span class="consultation-form__header">Есть вопросы?</span>
                 <span class="consultation-form__caption">Оставьте заявку на консультацию</span>
               </p>
-              <p>
-                <label class="visually-hidden" for="small-form-name">Имя</label>
-                <input class="consultation-form__input" id="small-form-name" type="text" name="name" placeholder="Имя">
-              </p>
-              <p>
-                <label class="visually-hidden" for="small-form-name">Телефон</label>
-                <input class="consultation-form__input" id="small-form-phone" type="text" name="phone" placeholder="Телефон">
-              </p>
+              <div class="consultation-form__wrapper">
+                <p>
+                  <label class="visually-hidden" for="small-form-name">Имя</label>
+                  <input class="consultation-form__input" id="small-form-name" type="text" name="name" placeholder="Имя">
+                </p>
+                <p>
+                  <label class="visually-hidden" for="small-form-name">Телефон</label>
+                  <input class="consultation-form__input" id="small-form-phone" type="text" name="phone" placeholder="Телефон">
+                </p>
 
-              <input type="submit" value="Отправить">
+                <input type="submit" value="Отправить">
+              </div>
             </form>
           </div>
 
@@ -190,21 +192,27 @@
             <dd>В зависимости от соимости заказа, курьер может доставить вам продукцию бесплатно (при соимости от 600 руб.) или от 150 руб. в пределах Ярославля и до 500 руб. в пределах Ярославской области.</dd>
           </dl>
 
+
+
           <form class="consultation-form consultation-form--big" action="index.html" method="post">
             <p class="consultation-form__text">
-              <span class="consultation-form__header">Есть вопросы?</span>
+              <span class="consultation-form__header">Остались вопросы?</span>
               <span class="consultation-form__caption">Закажите консультацию</span>
             </p>
-            <p>
-              <label class="visually-hidden" for="big-form-name">Имя</label>
-              <input class="consultation-form__input" id="big-form-name" type="text" name="name" placeholder="Имя">
-            </p>
-            <p>
-              <label class="visually-hidden" for="big-form-name">Телефон</label>
-              <input class="consultation-form__input" id="big-form-phone" type="text" name="phone" placeholder="Телефон">
-            </p>
 
-            <input type="submit" value="Отправить">
+
+            <div class="consultation-form__wrapper">
+              <p>
+                <label class="visually-hidden" for="big-form-name">Имя</label>
+                <input class="consultation-form__input" id="big-form-name" type="text" name="name" placeholder="Имя">
+              </p>
+              <p>
+                <label class="visually-hidden" for="big-form-name">Телефон</label>
+                <input class="consultation-form__input" id="big-form-phone" type="text" name="phone" placeholder="Телефон">
+              </p>
+
+              <input type="submit" value="Отправить">
+            </div>
           </form>
         </div>
       </section>

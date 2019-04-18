@@ -3,3 +3,20 @@
   margin: 0 auto;
   padding: 0 $padding;
 }
+
+@media (min-width: $tablet-width) {
+  .hero-block__wrapper {
+    width: $tablet-width;
+    display: flex;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .hero-block__wrapper {
+    width: $desktop-width;
+  }
+
+  .page-header__cta-wrapper {
+    display: flex;
+  }
+}

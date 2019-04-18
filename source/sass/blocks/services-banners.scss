@@ -9,3 +9,19 @@
 .services-banners__consultation-block {
   order: 1;
 }
+
+@media (min-width: $tablet-width) {
+  .services-banners__wrapper {
+    width: $tablet-width;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .services-banners__wrapper {
+    width: $desktop-width;
+  }
+
+  .services-banners__consultation-block {
+    order: 0;
+  }
+}

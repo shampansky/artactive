@@ -1,0 +1,20 @@
+@media (min-width: $tablet-width) {
+  .consultation-form__header {
+    display: block;
+  }
+
+  .consultation-form__caption {
+    display: block;
+  }
+
+  .consultation-form--big .consultation-form__wrapper {
+    display: flex;
+  }
+}
+
+@media (min-width: $desktop-width) {
+
+  .consultation-form--small .consultation-form__wrapper {
+    display: flex;
+  }
+}

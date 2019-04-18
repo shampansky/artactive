@@ -7,3 +7,19 @@
 .reviews__header {
   display: none;
 }
+
+@media (min-width: $tablet-width) {
+  .reviews__wrapper {
+    width: $tablet-width;
+  }
+
+  .reviews__header {
+    display: block;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .reviews__wrapper {
+    width: $desktop-width;
+  }
+}
