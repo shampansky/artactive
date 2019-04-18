@@ -34,7 +34,12 @@
 
     <section class="hero-block">
       <div class="hero-block__wrapper">
-        <img src="img/hero-illustration-mobile.png" alt="Оперативная полиграфия и широкоформатная печать любого размера">
+        <picture>
+          <source media="(min-width: 1170px)" srcset="img/hero-illustration-desktop.png">
+          <source media="(min-width: 750px)" srcset="img/hero-illustration-tablet.png">
+            <img src="img/hero-illustration-mobile.png" alt="Оперативная полиграфия и широкоформатная печать любого размера">
+        </picture>
+
         <div class="hero-block__content">
           <b class="page-header__slogan">Размер не имеет значения</b>
           <p class="hpage-eader__description">Оперативная полиграфия и широкоформатная печать любого размера</p>
@@ -62,7 +67,11 @@
             <p>При этом работа выполняется в максимально сжатые сроки и не в ущерб качеству конечного результата, которое неизменно остается на высоте.</p>
           </div>
 
-        <img src="img/service-path-mobile.png" alt="Схема нашей работы">
+        <picture>
+          <source media="(min-width: 1170px)" srcset="img/service-path-desktop.png">
+          <source media="(min-width: 750px)" srcset="img/service-path-tablet.png">
+          <img src="img/service-path-mobile.png" alt="Схема нашей работы">
+        </picture>
         </div>
 
       </section>
@@ -99,7 +108,11 @@
 
 
           <figure class="gallery">
-            <img src="img/gallery-miller-mobile.jpg" alt="Пример широкоформатной печати - реклама Miller">
+            <picture>
+              <source media="(min-width: 1170px)" srcset="img/gallery-miller-desktop.jpg">
+              <source media="(min-width: 750px)" srcset="img/gallery-miller-tablet.jpg">
+              <img src="img/gallery-miller-mobile.jpg" alt="Пример широкоформатной печати - реклама Miller">
+            </picture>
             <div class="gallery__wrapper">
               <div class="gallery__navigation">
                 <button class="button gallery__navigation--back"><span class="visually-hidden">Вперед</span></button>
