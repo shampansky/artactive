@@ -1,0 +1,7 @@
+.gallery__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.gallery__image-caption {
+  order: -1;
+}

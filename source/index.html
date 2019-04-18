@@ -86,25 +86,27 @@
                 <li>изготовление цветопробы</li>
                 <li>доставка баннеров</li>
               </ul>
+            </div>
 
-              <section class="consultation-block">
+              <section class="services-banners__consultation-block consultation-block">
                 <p class="consultation-block__text">
                   <span class="consultation-block__header">Есть вопросы?</span>
                   <span class="consultation-block__caption">Закажите консультацию</span>
                 </p>
                 <button class="button">Заказать</button>
               </section>
-            </div>
+
 
 
           <figure class="gallery">
             <img src="img/gallery-miller-mobile.jpg" alt="Пример широкоформатной печати - реклама Miller">
-            <div>
+            <div class="gallery__wrapper">
               <div class="gallery__navigation">
                 <button class="button gallery__navigation--back"><span class="visually-hidden">Вперед</span></button>
                 <button class="button gallery__navigation--next"><span class="visually-hidden">Назад</span></button>
-                <figcaption class="gallery__image-caption">Растяжка на ул. Ленина</figcaption>
               </div>
+                <figcaption class="gallery__image-caption">Растяжка на ул. Ленина</figcaption>
+
             </div>
           </figure>
 
@@ -124,75 +126,87 @@
         </section>
 
         <section class="services-speed">
-          <h3 class="services-speed__header">Оперативная полиграфия — от визитки до баннера</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error.</p>
 
-          <form class="consultation-form" action="index.html" method="post">
-            <p class="consultation-form__text">
-              <span class="consultation-form__header">Есть вопросы?</span>
-              <span class="consultation-form__caption">Закажите консультацию</span>
-            </p>
-            <p>
-              <label class="visually-hidden" for="small-form-name">Имя</label>
-              <input class="consultation-form__input" id="small-form-name" type="text" name="name" placeholder="Имя">
-            </p>
-            <p>
-              <label class="visually-hidden" for="small-form-name">Телефон</label>
-              <input class="consultation-form__input" id="small-form-phone" type="text" name="phone" placeholder="Телефон">
-            </p>
+          <div class="services-speed__wrapper">
+            <h3 class="services-speed__header">Оперативная полиграфия — от визитки до баннера</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error.</p>
 
-            <input type="submit" value="Отправить">
-          </form>
+            <form class="consultation-form" action="index.html" method="post">
+              <p class="consultation-form__text">
+                <span class="consultation-form__header">Есть вопросы?</span>
+                <span class="consultation-form__caption">Оставьте заявку на консультацию</span>
+              </p>
+              <p>
+                <label class="visually-hidden" for="small-form-name">Имя</label>
+                <input class="consultation-form__input" id="small-form-name" type="text" name="name" placeholder="Имя">
+              </p>
+              <p>
+                <label class="visually-hidden" for="small-form-name">Телефон</label>
+                <input class="consultation-form__input" id="small-form-phone" type="text" name="phone" placeholder="Телефон">
+              </p>
+
+              <input type="submit" value="Отправить">
+            </form>
+          </div>
 
         </section>
       </section>
 
       <section class="reviews">
-        <h2 class="reviews__header">3. Отзывы</h2>
-        <blockquote class="reviews__block">
-          <img class="reviews__photo" src="img/reviews-aleksandrov.jpg" alt="Максим Александров">
-          <div class="reviews__wrapper">
-            <p class="reviews__text">Обратился в компанию АртАктив за визитками. Это мой первый опыт, поэтому немного нервничал, не знал, с чего начать. Остался доволен, потому что мне всё объяснили, показали и сделали по высшему разряду. Советую!</p>
-            <cite class="reviews__author">Александров Максим, 24 года</cite>
-            <cite class="reviews__link"><a href="http://vk.com/mr.sharp">vk.com/mr.sharp</cite>
+
+        <div class="reviews__wrapper">
+          <h2 class="reviews__header">3. Отзывы</h2>
+          <blockquote class="reviews__block">
+            <img class="reviews__photo" src="img/reviews-aleksandrov.jpg" alt="Максим Александров">
+            <div class="reviews__content-wrapper">
+              <p class="reviews__text">Обратился в компанию АртАктив за визитками. Это мой первый опыт, поэтому немного нервничал, не знал, с чего начать. Остался доволен, потому что мне всё объяснили, показали и сделали по высшему разряду. Советую!</p>
+              <cite class="reviews__author">Александров Максим, 24 года</cite>
+              <cite class="reviews__link"><a href="http://vk.com/mr.sharp">vk.com/mr.sharp</cite>
+            </div>
+          </blockquote>
+          <div class="reviews__navigation">
+            <button class="button reviews__navigation--back"><span class="visually-hidden">Вперед</span></button>
+            <button class="button reviews__navigation--next"><span class="visually-hidden">Назад</span></button>
           </div>
-        </blockquote>
+        </div>
       </section>
 
       <section class="faq">
-        <h2 class="faq__header">4. Частые вопросы (FAQ)</h2>
-        <dl class="faq__list">
-          <dt>Что такое макет?</dt>
-          <dd>Макет — это будущее печатное изделие в электронном формате. Верстают (собирают) макет в специализированном программном обеспечении.</dd>
-          <dt>У меня есть готовый макет</dt>
-          <dd>Вы можете привезти его к нам в офис на любом удобном для вас носителе (диск, флешка). В присутствии вас мы обработаем ваш макет и отправим его в производство.</dd>
-          <dt>У меня нет макета</dt>
-          <dd>В нашем штате работают професиональные дизайнеры, которые с ваших слов или в вашем присутствии сверстают макет, который после утверждения также будет отправлен в печать.</dd>
-          <dt>Сколько времени занимает печать?</dt>
-          <dd>В том случае если изображение готово к печати, изготовление занимает около 3 часов. Также время изготовления зависит от нашей загруженности.</dd>
-          <dt>Я не могу приехать к вам в офис</dt>
-          <dd>Отправьте нам изображение по электронной почте, укажите свой телефон. Мы свяжемся с вами для уточнения деталей. Готовое изделие мы доставим вам курьером.</dd>
-          <dt>Вызов курьера бесплатный?</dt>
-          <dd>В зависимости от соимости заказа, курьер может доставить вам продукцию бесплатно (при соимости от 600 руб.) или от 150 руб. в пределах Ярославля и до 500 руб. в пределах Ярославской области.</dd>
-        </dl>
+        <div class="faq__wrapper">
+          <h2 class="faq__header">4. Частые вопросы (FAQ)</h2>
+          <dl class="faq__list">
+            <dt>Что такое макет?</dt>
+            <dd>Макет — это будущее печатное изделие в электронном формате. Верстают (собирают) макет в специализированном программном обеспечении.</dd>
+            <dt>У меня есть готовый макет</dt>
+            <dd>Вы можете привезти его к нам в офис на любом удобном для вас носителе (диск, флешка). В присутствии вас мы обработаем ваш макет и отправим его в производство.</dd>
+            <dt>У меня нет макета</dt>
+            <dd>В нашем штате работают професиональные дизайнеры, которые с ваших слов или в вашем присутствии сверстают макет, который после утверждения также будет отправлен в печать.</dd>
+            <dt>Сколько времени занимает печать?</dt>
+            <dd>В том случае если изображение готово к печати, изготовление занимает около 3 часов. Также время изготовления зависит от нашей загруженности.</dd>
+            <dt>Я не могу приехать к вам в офис</dt>
+            <dd>Отправьте нам изображение по электронной почте, укажите свой телефон. Мы свяжемся с вами для уточнения деталей. Готовое изделие мы доставим вам курьером.</dd>
+            <dt>Вызов курьера бесплатный?</dt>
+            <dd>В зависимости от соимости заказа, курьер может доставить вам продукцию бесплатно (при соимости от 600 руб.) или от 150 руб. в пределах Ярославля и до 500 руб. в пределах Ярославской области.</dd>
+          </dl>
 
-        <form class="consultation-form consultation-form--big" action="index.html" method="post">
-          <p class="consultation-form__text">
-            <span class="consultation-form__header">Есть вопросы?</span>
-            <span class="consultation-form__caption">Закажите консультацию</span>
-          </p>
-          <p>
-            <label class="visually-hidden" for="big-form-name">Имя</label>
-            <input class="consultation-form__input" id="big-form-name" type="text" name="name" placeholder="Имя">
-          </p>
-          <p>
-            <label class="visually-hidden" for="big-form-name">Телефон</label>
-            <input class="consultation-form__input" id="big-form-phone" type="text" name="phone" placeholder="Телефон">
-          </p>
+          <form class="consultation-form consultation-form--big" action="index.html" method="post">
+            <p class="consultation-form__text">
+              <span class="consultation-form__header">Есть вопросы?</span>
+              <span class="consultation-form__caption">Закажите консультацию</span>
+            </p>
+            <p>
+              <label class="visually-hidden" for="big-form-name">Имя</label>
+              <input class="consultation-form__input" id="big-form-name" type="text" name="name" placeholder="Имя">
+            </p>
+            <p>
+              <label class="visually-hidden" for="big-form-name">Телефон</label>
+              <input class="consultation-form__input" id="big-form-phone" type="text" name="phone" placeholder="Телефон">
+            </p>
 
-          <input type="submit" value="Отправить">
-        </form>
+            <input type="submit" value="Отправить">
+          </form>
+        </div>
       </section>
 
       <section class="contacts">
@@ -208,9 +222,11 @@
     </article>
 
     <footer class="footer">
-      <p class="footer__copyright">ООО «АртАктив», 2017 ©</p>
-      <p class="footer__privacy-policy">Политика конфиденциальноси</p>
-      <p class="footer__designed-by">Designed by Sergey Strogiy</p>
+      <div class="footer__wrapper">
+        <p class="footer__copyright">ООО «АртАктив», 2017 ©</p>
+        <p class="footer__privacy-policy">Политика конфиденциальноси</p>
+        <p class="footer__designed-by">Designed by Sergey Strogiy</p>
+      </div>
     </footer>
 
   </body>
