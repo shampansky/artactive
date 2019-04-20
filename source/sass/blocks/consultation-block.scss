@@ -1,3 +1,21 @@
+.consultation-block {
+  background-color: #883eca;
+}
+
+.consultation-block__header {
+  font-size: 13px;
+  line-height: 24px;
+  font-style: italic;
+  color: #fff;
+}
+
+.consultation-block__caption {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
 @media (min-width: $tablet-width) {
   .consultation-block {
     display: flex;

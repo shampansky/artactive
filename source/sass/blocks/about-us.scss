@@ -4,9 +4,30 @@
   padding: 0 $padding;
 }
 
+.about-us__header {
+  font-family: $font-stack-head;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  color: #7f38bd;
+}
+
+.about-us__subheader {
+  font-family: $font-stack-head;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  color: #383d52;
+}
+
 @media (min-width: $tablet-width) {
   .about-us__wrapper {
     width: $tablet-width;
+  }
+
+  .about-us__subheader {
+    font-size: 32px;
+    line-height: 40px;
   }
 }
 

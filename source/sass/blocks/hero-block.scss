@@ -1,13 +1,45 @@
+.hero-block {
+  background-color: #6a3093;
+}
+
 .hero-block__wrapper {
   width: $mobile-width;
   margin: 0 auto;
   padding: 0 $padding;
 }
 
+.hero-block__slogan {
+  font-family: $font-stack-head;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero-block__description {
+  font-family: $font-stack-head;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.hero-block__delivery-info {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
 @media (min-width: $tablet-width) {
   .hero-block__wrapper {
     width: $tablet-width;
     display: flex;
+  }
+
+  .hero-block__slogan {
+    font-size: 45px;
+    line-height: 60px;
   }
 }
 

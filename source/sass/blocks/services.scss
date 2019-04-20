@@ -2,6 +2,12 @@
   width: $mobile-width;
   margin: 0 auto;
   padding: 0 $padding;
+
+  font-family: $font-stack-head;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  color: #7f38bd;
 }
 
 @media (min-width: $tablet-width) {

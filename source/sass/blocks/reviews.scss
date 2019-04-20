@@ -8,6 +8,23 @@
   display: none;
 }
 
+.reviews__author {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  color: #383d52;
+}
+
+.reviews__link a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 30px;
+  color: #3594dd;
+}
+
 @media (min-width: $tablet-width) {
   .reviews__wrapper {
     width: $tablet-width;
@@ -15,6 +32,12 @@
 
   .reviews__header {
     display: block;
+
+    font-family: $font-stack-head;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    color: #7f38bd;
   }
 }
 

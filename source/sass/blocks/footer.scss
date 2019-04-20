@@ -1,8 +1,21 @@
+.footer {
+  background-color: #65269d;
+}
+
+.footer p,
+.footer a {
+  font-size: 13px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
 .footer__wrapper {
   width: $mobile-width;
   margin: 0 auto;
   padding: 0 $padding;
 }
+
+
 
 @media (min-width: $tablet-width) {
   .footer__wrapper {

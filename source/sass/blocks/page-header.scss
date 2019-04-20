@@ -1,3 +1,7 @@
+.page-header {
+  background-color: #6a3093;
+}
+
 .page-header__wrapper {
   width: $mobile-width;
   margin: 0 auto;
@@ -5,11 +9,54 @@
   display: flex;
   justify-content: space-between;
 }
+
+.page-header__logo {
+  font-family: $font-stack;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 20px;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
 .page-header__contact {
   display: none;
 }
+
+.page-header__phone {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.page-header__order-call {
+  font-size: 11px;
+  line-height: 13px;
+  font-weight: 800;
+  color: #ffffff;
+
+  cursor: pointer;
+}
+
 .page-header__nav {
   display: none;
+}
+
+.page-nav__menu {
+  @include reset-list-style;
+}
+
+.page-nav__menu a {
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 15px;
+  color: #ffffff;
 }
 
 @media (min-width: $tablet-width) {

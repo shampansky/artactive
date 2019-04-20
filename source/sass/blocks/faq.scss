@@ -4,6 +4,21 @@
   padding: 0 $padding;
 }
 
+.faq__header {
+  font-family: $font-stack-head;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  color: #7f38bd;
+}
+
+.faq__list dt {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #383d52;
+}
+
 @media (min-width: $tablet-width) {
   .faq__wrapper {
     width: $tablet-width;

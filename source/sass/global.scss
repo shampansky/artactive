@@ -18,6 +18,16 @@ img {
   height: auto;
 }
 
+.button {
+  font-family: $font-stack;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }

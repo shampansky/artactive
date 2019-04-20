@@ -4,9 +4,22 @@
   padding: 0 $padding;
 }
 
+.services-interior__header {
+  font-family: $font-stack-head;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  color: #383d52;
+}
+
 @media (min-width: $tablet-width) {
   .services-interior__wrapper {
     width: $tablet-width;
+  }
+
+  .services-interior__header {
+    font-size: 32px;
+    line-height: 40px;
   }
 }
 
