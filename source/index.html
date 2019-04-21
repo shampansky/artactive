@@ -8,7 +8,9 @@
     <title>Полиграфия Artactive</title>
   </head>
   <body>
-
+    <div style="display:none;">
+      <include src="build/img/sprite.svg"></include>
+    </div>
     <header class="page-header">
       <div class="page-header__wrapper">
         <a class="page-header__logo" href="#">Artactive</a>
@@ -34,14 +36,14 @@
 
     <section class="hero-block">
       <div class="hero-block__wrapper">
-        <picture>
+        <!-- <picture>
           <source media="(min-width: 1170px)" srcset="img/hero-illustration-desktop.png">
           <source media="(min-width: 750px)" srcset="img/hero-illustration-tablet.png">
             <img src="img/hero-illustration-mobile.png" alt="Оперативная полиграфия и широкоформатная печать любого размера">
-        </picture>
+        </picture> -->
 
         <div class="hero-block__content">
-          <b class="hero-block__slogan">Размер не имеет значения</b>
+          <b class="hero-block__slogan">Размер<br> не имеет<br> значения!</b>
           <p class="hero-block__description">Оперативная полиграфия и широкоформатная печать любого размера</p>
 
           <div class="hero-block__cta-wrapper">
@@ -115,8 +117,18 @@
             </picture>
             <div class="gallery__wrapper">
               <div class="gallery__navigation">
-                <button class="button gallery__navigation--back"><span class="visually-hidden">Вперед</span></button>
-                <button class="button gallery__navigation--next"><span class="visually-hidden">Назад</span></button>
+                <button class="button gallery__navigation--back">
+                  <svg width="90" height="14">
+                    <use xlink:href="#icon-arrow-left"></use>
+                  </svg>
+                  <span class="visually-hidden">Вперед</span>
+                </button>
+                <button class="button gallery__navigation--next">
+                  <svg width="90" height="14">
+                    <use xlink:href="#icon-arrow-right"></use>
+                  </svg>
+                  <span class="visually-hidden">Назад</span>
+                </button>
               </div>
                 <figcaption class="gallery__image-caption">Растяжка на ул. Ленина</figcaption>
 
@@ -141,14 +153,14 @@
         <section class="services-speed">
 
           <div class="services-speed__wrapper">
-            <h3 class="services-speed__header">Оперативная полиграфия — от визитки до баннера</h3>
+            <h3 class="services-speed__header">Оперативная<br class="br-mobile"> полиграфия — от визитки до баннера</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
             <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error.</p>
 
             <form class="consultation-form consultation-form--small" action="index.html" method="post">
               <p class="consultation-form__text">
                 <span class="consultation-form__header">Есть вопросы?</span>
-                <span class="consultation-form__caption">Оставьте заявку на консультацию</span>
+                <span class="consultation-form__caption">Оставьте заявку<br> на консультацию</span>
               </p>
               <div class="consultation-form__wrapper">
                 <p>
@@ -181,8 +193,19 @@
             </div>
           </blockquote>
           <div class="reviews__navigation">
-            <button class="button reviews__navigation--back"><span class="visually-hidden">Вперед</span></button>
-            <button class="button reviews__navigation--next"><span class="visually-hidden">Назад</span></button>
+            <button class="button reviews__navigation--back">
+              <svg width="90" height="14">
+                <use xlink:href="#icon-arrow-left"></use>
+              </svg>
+              <span class="visually-hidden">Вперед</span>
+            </button>
+            <button class="button reviews__navigation--next">
+              <svg width="90" height="14">
+                <use xlink:href="#icon-arrow-right"></use>
+              </svg>
+              <span class="visually-hidden">Назад</span>
+            </button>
+
           </div>
         </div>
       </section>
@@ -232,12 +255,15 @@
 
       <section class="contacts">
         <div class="contacts__wrapper">
-          <h2 class="contacts__header">5. Контакты</h2>
-          <ul class="contacts__list">
-            <li class="contacts__item">г. Ярославль, проспект Октября, 88</li>
-            <li class="contacts__item">art-aktiv.76@mail.ru</li>
-            <li class="contacts__item"><a href="tel:+79201488131">+7 (920) 148 81 31</a></li>
-          </ul>
+
+          <div class="contacts__block">
+            <h2 class="contacts__header">5. Контакты</h2>
+            <ul class="contacts__list">
+              <li class="contacts__item contacts__item--location">г. Ярославль, проспект Октября, 88</li>
+              <li class="contacts__item contacts__item--mail">art-aktiv.76@mail.ru</li>
+              <li class="contacts__item contacts__item--phone"><a href="tel:+79201488131">+7 (920) 148 81 31</a></li>
+            </ul>
+          </div>
         </div>
       </section>
     </article>
@@ -245,7 +271,7 @@
     <footer class="footer">
       <div class="footer__wrapper">
         <p class="footer__copyright">ООО «АртАктив», 2017 ©</p>
-        <p class="footer__privacy-policy"><a href="#">Политика конфиденциальноси</a></p>
+        <p class="footer__privacy-policy"><a href="#">Политика конфиденциальности</a></p>
         <p class="footer__designed-by">Designed by Sergey Strogiy</p>
       </div>
     </footer>

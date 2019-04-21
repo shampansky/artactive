@@ -1,7 +1,12 @@
+.services {
+  background-color: #faf8fb;
+}
+
 .services__header {
   width: $mobile-width;
   margin: 0 auto;
-  padding: 0 $padding;
+  margin-bottom: 45px;
+  padding: 65px $padding 0;
 
   font-family: $font-stack-head;
   font-weight: bold;

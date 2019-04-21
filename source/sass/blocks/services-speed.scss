@@ -1,10 +1,27 @@
+.services-speed {
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+
 .services-speed__wrapper {
   width: $mobile-width;
   margin: 0 auto;
   padding: 0 $padding;
 }
 
+.services-speed__wrapper > p:last-of-type {
+  padding-bottom: 320px;
+
+  background-image: url(../img/identity-bg-mobile.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+
+}
+
 .services-speed__header {
+  margin: 0;
+  margin-bottom: 50px;
+
   font-family: $font-stack-head;
   font-weight: 500;
   font-size: 24px;

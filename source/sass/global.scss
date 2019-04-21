@@ -19,6 +19,10 @@ img {
 }
 
 .button {
+  width: 100%;
+  padding: 18px 0;
+  background-color: #fb0275;
+
   font-family: $font-stack;
   font-weight: bold;
   text-transform: uppercase;
@@ -26,10 +30,18 @@ img {
   line-height: 20px;
   color: #fff;
 
+  border: none;
+  border-radius: 999px;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+.br-mobile {
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
 }
 
 .visually-hidden:not(:focus):not(:active),

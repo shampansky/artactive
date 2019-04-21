@@ -1,4 +1,7 @@
 .footer {
+  padding-top: 45px;
+  padding-bottom: 50px;
+
   background-color: #65269d;
 }
 
@@ -10,17 +13,28 @@
 }
 
 .footer__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: $mobile-width;
   margin: 0 auto;
   padding: 0 $padding;
 }
 
+.footer__privacy-policy {
+  margin: 0;
+  margin-bottom: 35px;
+  order: -1;
+}
 
+.footer__designed-by {
+  display: none;
+}
 
 @media (min-width: $tablet-width) {
   .footer__wrapper {
     width: $tablet-width;
-    display: flex;
+    flex-direction: row;
     justify-content: space-between;
   }
 }

@@ -1,8 +1,19 @@
 .consultation-block {
+  padding: 30px 23px;
+
   background-color: #883eca;
+  border-radius: 8px;
+  box-shadow: 0px 23px 32px 0px rgba(80,9,79,0.33);
+}
+
+.consultation-block__text {
+  margin: 0;
+  margin-bottom: 30px;
 }
 
 .consultation-block__header {
+  display: block;
+
   font-size: 13px;
   line-height: 24px;
   font-style: italic;
@@ -10,6 +21,8 @@
 }
 
 .consultation-block__caption {
+  display: block;
+
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;

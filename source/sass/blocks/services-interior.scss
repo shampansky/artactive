@@ -1,3 +1,17 @@
+.services-interior {
+  padding-top: 70px;
+  padding-bottom: 250px;
+
+  background-color: #ffffff;
+  background-image: url(../img/interior-print-bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom 50px right;
+}
+
+.services-interior p:last-of-type {
+  margin-bottom: 45px;
+}
+
 .services-interior__wrapper {
   width: $mobile-width;
   margin: 0 auto;
@@ -5,12 +19,16 @@
 }
 
 .services-interior__header {
+  margin: 0;
+  margin-bottom: 45px;
+
   font-family: $font-stack-head;
   font-weight: 500;
   font-size: 24px;
   line-height: 30px;
   color: #383d52;
 }
+
 
 @media (min-width: $tablet-width) {
   .services-interior__wrapper {
