@@ -69,11 +69,13 @@
             <p>При этом работа выполняется в максимально сжатые сроки и не в ущерб качеству конечного результата, которое неизменно остается на высоте.</p>
           </div>
 
-        <picture>
-          <source media="(min-width: 1170px)" srcset="img/service-path-desktop.png">
-          <source media="(min-width: 750px)" srcset="img/service-path-tablet.png">
-          <img src="img/service-path-mobile.png" alt="Схема нашей работы">
-        </picture>
+        <div class="about-us__image-wrapper">
+          <picture>
+            <source media="(min-width: 1170px)" srcset="img/service-path-desktop.png">
+            <source media="(min-width: 750px)" srcset="img/service-path-tablet.png">
+            <img src="img/service-path-mobile.png" alt="Схема нашей работы">
+          </picture>
+        </div>
         </div>
 
       </section>
@@ -163,11 +165,11 @@
                 <span class="consultation-form__caption">Оставьте заявку<br> на консультацию</span>
               </p>
               <div class="consultation-form__wrapper">
-                <p>
+                <p class="consultation-form__name">
                   <label class="visually-hidden" for="small-form-name">Имя</label>
                   <input class="consultation-form__input" id="small-form-name" type="text" name="name" placeholder="Имя">
                 </p>
-                <p>
+                <p class="consultation-form__phone">
                   <label class="visually-hidden" for="small-form-name">Телефон</label>
                   <input class="consultation-form__input" id="small-form-phone" type="text" name="phone" placeholder="Телефон">
                 </p>
@@ -233,16 +235,16 @@
           <form class="consultation-form consultation-form--big" action="index.html" method="post">
             <p class="consultation-form__text">
               <span class="consultation-form__header">Остались вопросы?</span>
-              <span class="consultation-form__caption">Закажите консультацию</span>
+              <span class="consultation-form__caption">Оставьте заявку на консультацию</span>
             </p>
 
 
             <div class="consultation-form__wrapper">
-              <p>
+              <p class="consultation-form__name">
                 <label class="visually-hidden" for="big-form-name">Имя</label>
                 <input class="consultation-form__input" id="big-form-name" type="text" name="name" placeholder="Имя">
               </p>
-              <p>
+              <p class="consultation-form__phone">
                 <label class="visually-hidden" for="big-form-name">Телефон</label>
                 <input class="consultation-form__input" id="big-form-phone" type="text" name="phone" placeholder="Телефон">
               </p>

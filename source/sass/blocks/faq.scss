@@ -11,7 +11,7 @@
 
 .faq__header {
   margin: 0;
-  margin-bottom: 40px;
+  margin-bottom: 27px;
 
   font-family: $font-stack-head;
   font-weight: bold;
@@ -20,8 +20,12 @@
   color: #7f38bd;
 }
 
+.faq__list {
+  margin-bottom: 55px;
+}
+
 .faq__list dt {
-  margin-bottom: 30px;
+  margin-bottom: 18px;
 
   font-weight: 600;
   font-size: 20px;
@@ -31,7 +35,7 @@
 
 .faq__list dd {
   margin: 0;
-  margin-bottom: 35px;
+  margin-bottom: 32px;
 }
 
 @media (min-width: $tablet-width) {

@@ -1,6 +1,6 @@
 .contacts {
-  padding-top: 67px;
-  padding-bottom: 100px;
+  padding-top: 66px;
+  padding-bottom: 200px;
   background-color: #ebebeb;
   background-image: url(../img/map-mobile.png);
   background-repeat: no-repeat;
@@ -14,7 +14,7 @@
 }
 
 .contacts__block {
-  padding: 40px 55px 55px 40px;
+  padding: 40px 55px 36px 40px;
   background-color: #ffffff;
 
   border-radius: 10px;
@@ -22,7 +22,7 @@
 
 .contacts__header {
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 
   font-family: $font-stack-head;
   font-weight: bold;
@@ -39,8 +39,11 @@
 .contacts__item {
   position: relative;
 
-  padding-left: 30px;
-  margin-bottom: 25px;
+  padding-left: 28px;
+  margin-bottom: 22px;
+
+  font-size: 14px;
+  line-height: 17px;
 }
 
 .contacts__item::before {
@@ -53,8 +56,8 @@
 }
 
 .contacts__item--location::before {
-  left: 0;
-  top: 7px;
+  left: -1px;
+  top: 3px;
 
   width: 11px;
   height: 17px;
@@ -63,8 +66,8 @@
 }
 
 .contacts__item--mail::before {
-  left: 0;
-  top: 7px;
+  left: -1px;
+  top: 3px;
 
   width: 13px;
   height: 11px;
@@ -75,8 +78,8 @@
 }
 
 .contacts__item--phone::before {
-  left: 0;
-  top: 7px;
+  left: -1px;
+  top: 1px;
 
   width: 14px;
   height: 15px;

@@ -5,35 +5,36 @@
 .hero-block__wrapper {
   width: $mobile-width;
   margin: 0 auto;
-  padding: 350px $padding 65px;
+  padding: 340px $padding 64px;
 
   background-image: url(../img/hero-illustration-mobile.png);
-  background-position: top 10px center;
+  background-position: top 6px left;
   background-repeat: no-repeat;
 
 }
 
 .hero-block__slogan {
+  display: block;
+  margin-bottom: 24px;
+
   font-family: $font-stack-head;
   font-weight: 800;
   font-size: 36px;
-  line-height: 44px;
+  line-height: 43px;
   text-transform: uppercase;
+  letter-spacing: 2px;
   color: #ffffff;
-
-  display: block;
-  margin-bottom: 30px;
 }
 
 .hero-block__description {
   font-family: $font-stack-head;
   font-weight: 500;
   font-size: 21px;
-  line-height: 26px;
+  line-height: 25px;
   color: #ffffff;
 
   margin: 0;
-  margin-bottom: 40px;
+  margin-bottom: 42px;
 }
 
 .hero-block__delivery-info {

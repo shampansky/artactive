@@ -1,12 +1,12 @@
 .about-us__wrapper {
   width: $mobile-width;
   margin: 0 auto;
-  padding: 35px $padding 55px;
+  padding: 35px $padding 46px;
 }
 
 .about-us__header {
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-family: $font-stack-head;
   font-weight: bold;
   font-size: 30px;
@@ -16,7 +16,7 @@
 
 .about-us__subheader {
   margin: 0;
-  margin-bottom: 40px;
+  margin-bottom: 29px;
 
   font-family: $font-stack-head;
   font-weight: 500;
@@ -27,7 +27,15 @@
 
 .about-us p {
   margin: 0;
-  margin-bottom: 35px;
+  margin-bottom: 24px;
+}
+
+.about-us p:last-of-type {
+  margin-bottom: 34px;
+}
+
+.about-us__image-wrapper {
+  text-align: right;
 }
 
 @media (min-width: $tablet-width) {

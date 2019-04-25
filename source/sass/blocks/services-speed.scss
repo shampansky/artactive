@@ -1,6 +1,6 @@
 .services-speed {
-  padding-top: 70px;
-  padding-bottom: 60px;
+  padding-top: 68px;
+  padding-bottom: 62px;
 }
 
 .services-speed__wrapper {
@@ -9,9 +9,14 @@
   padding: 0 $padding;
 }
 
-.services-speed__wrapper > p:last-of-type {
-  padding-bottom: 320px;
+.services-speed__wrapper > p {
+  margin: 0;
+  margin-bottom: 24px;
+}
 
+.services-speed__wrapper > p:last-of-type {
+  padding-bottom: 276px;
+  margin-bottom: 34px;
   background-image: url(../img/identity-bg-mobile.png);
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -20,12 +25,12 @@
 
 .services-speed__header {
   margin: 0;
-  margin-bottom: 50px;
+  margin-bottom: 46px;
 
   font-family: $font-stack-head;
   font-weight: 500;
   font-size: 24px;
-  line-height: 30px;
+  line-height: 29px;
   color: #383d52;
 }
 
