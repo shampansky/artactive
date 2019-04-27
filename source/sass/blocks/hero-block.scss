@@ -48,13 +48,54 @@
 
 @media (min-width: $tablet-width) {
   .hero-block__wrapper {
+    position: relative;
+
     width: $tablet-width;
     display: flex;
+    justify-content: flex-end;
+    padding: 0 $padding;
+    padding-bottom: 92px;
+
+    background-image: url(../img/hero-illustration-tablet.png);
+    background-position: top 15px left -15px;
+  }
+
+  .hero-block__wrapper::after {
+    content: "";
+
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+
+    width: 21px;
+    height: 33px;
+
+    background-image: url(../img/icon-scroll.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+
+    transform: translateX(-50%);
+  }
+
+  .hero-block__content {
+    width: 282px;
+    padding-top: 47px;
   }
 
   .hero-block__slogan {
     font-size: 45px;
-    line-height: 60px;
+    line-height: 55px;
+
+    margin-bottom: 28px;
+  }
+
+  .hero-block__description {
+    margin-bottom: 34px;
+  }
+
+  .hero-block__button {
+    width: auto;
+    padding: 14px 42px;
   }
 }
 

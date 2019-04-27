@@ -94,7 +94,46 @@
 
   .gallery__image-caption {
     order: 0;
+    margin-bottom: 0;
   }
+
+  .gallery::before {
+    top: -12px;
+
+    width: 688px;
+    height: 12px;
+  }
+
+  .gallery::after {
+
+    top: -24px;
+
+    width: 652px;
+    height: 12px;
+
+
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+  }
+
+  .gallery img {
+    margin-bottom: 44px;
+    box-shadow: 0 20px 40px 0 rgba(80,9,79,.35);
+  }
+
+  .gallery__navigation {
+    justify-content: space-between;
+    width: 225px;
+  }
+
+  .gallery__navigation--back,
+  .gallery__navigation--next {
+    margin: 0;
+
+  }
+
+
 }
 
 @media (min-width: $desktop-width) {

@@ -98,8 +98,20 @@
 }
 
 @media (min-width: $tablet-width) {
+  .contacts {
+    padding-top: 62px;
+    padding-bottom: 85px;
+
+    background-image: url(../img/map-tablet.png);
+
+  }
+
   .contacts__wrapper {
     width: $tablet-width;
+  }
+
+  .contacts__block {
+    width: 386px;
   }
 }
 

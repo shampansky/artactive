@@ -31,13 +31,29 @@
 
 
 @media (min-width: $tablet-width) {
+  .services-interior {
+    background-image: url(../img/interior-print-bg-tablet.jpg);
+
+  }
+
   .services-interior__wrapper {
     width: $tablet-width;
   }
 
   .services-interior__header {
+    width: 408px;
     font-size: 32px;
     line-height: 40px;
+  }
+
+  .services-interior__text {
+    width: 548px;
+  }
+
+  .services-interior__button {
+    width: auto;
+    padding-left: 38px;
+    padding-right: 38px;
   }
 }
 

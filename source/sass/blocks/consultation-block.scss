@@ -34,4 +34,20 @@
     display: flex;
     justify-content: space-between;
   }
+
+  .consultation-block__text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 342px;
+    margin: 0;
+  }
+
+  .consultation-block__header {
+    margin-right: 36px;
+  }
+
+  .consultation-block__button {
+    width: 250px;
+  }
 }

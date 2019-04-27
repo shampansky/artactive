@@ -84,9 +84,40 @@
     display: block;
   }
 
+  .consultation-form--small {
+    width: 363px;
+    padding-right: 123px;
+
+    background-image: url(../img/icon-send-tablet.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+
+  .consultation-form--big {
+    background-image: url(../img/icon-question.png);
+  }
+
   .consultation-form--big .consultation-form__wrapper {
     display: flex;
+    align-items: center;
   }
+
+  .consultation-form--big .consultation-form__name {
+    width: 180px;
+    margin: 0;
+    margin-right: 50px;
+  }
+
+  .consultation-form--big .consultation-form__phone {
+    width: 170px;
+    margin: 0;
+    margin-right: auto;
+  }
+
+  .consultation-form--big .consultation-form__send {
+    width: 192px;
+  }
+
 }
 
 @media (min-width: $desktop-width) {

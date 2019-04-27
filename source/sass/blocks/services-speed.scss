@@ -14,7 +14,7 @@
   margin-bottom: 24px;
 }
 
-.services-speed__wrapper > p:last-of-type {
+.services-speed__text {
   padding-bottom: 276px;
   margin-bottom: 34px;
   background-image: url(../img/identity-bg-mobile.png);
@@ -35,13 +35,28 @@
 }
 
 @media (min-width: $tablet-width) {
+  .services-speed {
+    background-image: url(../img/identity-bg-tablet.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+
   .services-speed__wrapper {
     width: $tablet-width;
   }
 
   .services-speed__header {
+    width: 438px;
+
     font-size: 32px;
     line-height: 40px;
+  }
+
+  .services-speed__text {
+    width: 640px;
+    padding: 0;
+
+    background-image: none;
   }
 }
 

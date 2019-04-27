@@ -93,6 +93,23 @@
     line-height: 36px;
     color: #7f38bd;
   }
+
+  .reviews__navigation {
+    justify-content: flex-start;
+  }
+
+  .reviews__navigation--back,
+  .reviews__navigation--next {
+    margin: 0;
+  }
+
+  .reviews__navigation--back {
+    margin-right: 23px;
+  }
+
+  .reviews__navigation--next {
+    margin-left: 23px;
+  }
 }
 
 @media (min-width: $desktop-width) {
