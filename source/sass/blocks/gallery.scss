@@ -118,13 +118,15 @@
   }
 
   .gallery img {
-    margin-bottom: 44px;
+    margin-bottom: 40px;
     box-shadow: 0 20px 40px 0 rgba(80,9,79,.35);
   }
 
   .gallery__navigation {
-    justify-content: space-between;
     width: 225px;
+    align-items: center;
+    justify-content: space-between;
+
   }
 
   .gallery__navigation--back,

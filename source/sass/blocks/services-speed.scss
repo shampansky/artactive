@@ -36,9 +36,12 @@
 
 @media (min-width: $tablet-width) {
   .services-speed {
+    padding-top: 105px;
+    padding-bottom: 118px;
+
     background-image: url(../img/identity-bg-tablet.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom 72px right;
   }
 
   .services-speed__wrapper {
@@ -47,6 +50,7 @@
 
   .services-speed__header {
     width: 438px;
+    margin-bottom: 44px;
 
     font-size: 32px;
     line-height: 40px;
@@ -55,8 +59,14 @@
   .services-speed__text {
     width: 640px;
     padding: 0;
+    margin-bottom: 66px;
 
     background-image: none;
+  }
+
+  .services-speed__text > p {
+    margin: 0;
+    margin-bottom: 24px;
   }
 }
 

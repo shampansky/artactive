@@ -106,9 +106,23 @@
 
   }
 
+  .contacts__block {
+    padding-top: 62px;
+    padding-left: 58px;
+    padding-bottom: 55px;
+  }
+
   .contacts__wrapper {
     width: $tablet-width;
   }
+
+  .contacts__header {
+    margin-bottom: 50px;
+  }
+
+  .contacts__item {
+    margin-bottom: 23px;
+}
 
   .contacts__block {
     width: 386px;

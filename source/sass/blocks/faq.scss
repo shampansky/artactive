@@ -39,8 +39,27 @@
 }
 
 @media (min-width: $tablet-width) {
+  .faq {
+    padding-top: 30px;
+    padding-bottom: 102px;
+  }
+
   .faq__wrapper {
     width: $tablet-width;
+  }
+
+  .faq__header {
+
+    margin-bottom: 47px;
+
+  }
+
+  .faq__list {
+    margin-bottom: 52px;
+  }
+
+  .faq__list dt {
+    margin-bottom: 19px;
   }
 }
 

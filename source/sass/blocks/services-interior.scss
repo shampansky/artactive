@@ -32,8 +32,10 @@
 
 @media (min-width: $tablet-width) {
   .services-interior {
+    padding-top: 62px;
+    padding-bottom: 400px;
     background-image: url(../img/interior-print-bg-tablet.jpg);
-
+    background-position: bottom 60px right;
   }
 
   .services-interior__wrapper {
@@ -42,12 +44,18 @@
 
   .services-interior__header {
     width: 408px;
+    margin-bottom: 55px;
+
     font-size: 32px;
     line-height: 40px;
   }
 
   .services-interior__text {
     width: 548px;
+  }
+
+  .services-interior p:last-of-type {
+    margin-bottom: 46px;
   }
 
   .services-interior__button {

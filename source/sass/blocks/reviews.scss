@@ -80,18 +80,49 @@
 
 
 @media (min-width: $tablet-width) {
+  .reviews {
+    padding-top: 70px;
+    padding-bottom: 48px;
+  }
+
   .reviews__wrapper {
     width: $tablet-width;
   }
 
   .reviews__header {
     display: block;
+    margin: 0;
+    margin-bottom: 56px;
 
     font-family: $font-stack-head;
     font-weight: bold;
     font-size: 30px;
     line-height: 36px;
     color: #7f38bd;
+  }
+
+  .reviews__block {
+    display: flex;
+    padding: 62px 64px 25px;
+    margin-bottom: 43px;
+  }
+
+  .reviews__photo {
+    margin-right: 50px;
+  }
+
+  .reviews__text {
+    margin-top: -6px;
+    margin-bottom: 10px;
+  }
+
+  .reviews__author {
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .reviews__link a {
+    display: block;
   }
 
   .reviews__navigation {

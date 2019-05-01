@@ -90,11 +90,14 @@
 
     background-image: url(../img/icon-send-tablet.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+        background-position: bottom 20px right 4px;
   }
 
   .consultation-form--big {
+    padding: 37px 34px 50px;
+
     background-image: url(../img/icon-question.png);
+    background-position: top -60px right -30px;
   }
 
   .consultation-form--big .consultation-form__wrapper {
