@@ -102,19 +102,53 @@
 @media (min-width: $desktop-width) {
   .hero-block__wrapper {
     width: $desktop-width;
+    padding-bottom: 218px;
+
+    background-image: url(../img/hero-illustration-desktop.png);
+    background-position: top 87px left -95px;
   }
 
-  .page-header__cta-wrapper {
+  .hero-block__wrapper::after {
+    bottom: 68px;
+  }
+
+  .hero-block__content {
+    width: 555px;
+    padding-top: 130px;
+    padding-left: 40px;
+  }
+
+  .hero-block__cta-wrapper {
     display: flex;
   }
 
+
+
   .hero-block__slogan {
+    margin-bottom: 35px;
+
     font-size: 60px;
-    line-height: 72px;
+    line-height: 75px;
+    letter-spacing: 3px;
   }
 
   .hero-block__description {
+    margin-bottom: 76px;
+    padding-right: 60px;
+
     font-size: 32px;
-    line-height: 40px;
+    line-height: 38px;
+
+
+  }
+
+  .hero-block__button {
+    padding: 14px 40px;
+    margin-right: 27px;
+  }
+
+  .hero-block__delivery-info {
+    width: 220px;
+    margin: 0;
   }
 }

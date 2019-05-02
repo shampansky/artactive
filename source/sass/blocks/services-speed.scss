@@ -9,18 +9,18 @@
   padding: 0 $padding;
 }
 
-.services-speed__wrapper > p {
-  margin: 0;
-  margin-bottom: 24px;
-}
-
 .services-speed__text {
-  padding-bottom: 276px;
-  margin-bottom: 34px;
+  padding-bottom: 250px;
+  margin-bottom: 35px;
   background-image: url(../img/identity-bg-mobile.png);
   background-repeat: no-repeat;
   background-position: bottom center;
 
+}
+
+.services-speed__text > p {
+  margin: 0;
+  margin-bottom: 24px;
 }
 
 .services-speed__header {
@@ -41,7 +41,7 @@
 
     background-image: url(../img/identity-bg-tablet.png);
     background-repeat: no-repeat;
-    background-position: bottom 72px right;
+    background-position: bottom 72px right -95px;
   }
 
   .services-speed__wrapper {
@@ -64,14 +64,44 @@
     background-image: none;
   }
 
-  .services-speed__text > p {
-    margin: 0;
-    margin-bottom: 24px;
-  }
+
 }
 
 @media (min-width: $desktop-width) {
+  .services-speed {
+    padding-top: 137px;
+    padding-bottom: 155px;
+    background-image: none;
+  }
+
+  .services-speed__header {
+    margin-bottom: 47px;
+
+    line-height: 38px;
+  }
+  .services-speed__wrapper {
+    position: relative;
+  }
+
+  .services-speed__wrapper::after {
+    content: "";
+
+    position: absolute;
+    top: -146px;
+    right: -84px;
+
+    width: 648px;
+    height: 544px;
+    background-image: url(../img/identity-bg-desktop.png);
+    background-repeat: no-repeat;
+  }
+
   .services-speed__wrapper {
     width: $desktop-width;
+  }
+
+  .services-speed__text {
+    width: 555px;
+    margin-bottom: 107px;
   }
 }

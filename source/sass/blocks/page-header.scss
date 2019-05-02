@@ -77,13 +77,17 @@
   .page-header__wrapper {
     width: $tablet-width;
   }
-
-
 }
 
 @media (min-width: $desktop-width) {
   .page-header__wrapper {
     width: $desktop-width;
+    padding-top: 30px;
+    justify-content: flex-start;
+  }
+
+  .page-header__logo {
+    margin-right: 134px;
   }
 
   .page-header__toggle {
@@ -92,9 +96,27 @@
 
   .page-header__nav {
     display: block;
+    margin-right: auto;
+  }
+
+  .page-nav__menu {
+    margin: 0;
   }
 
   .page-header__contact {
-    display: block;
+    display: flex;
+    align-items: center;
+  }
+
+  .page-header__phone {
+    margin-right: 30px;
+    letter-spacing: 1px;
+  }
+
+  .page-header__order-call {
+    width: auto;
+    padding: 9px 18px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
   }
 }

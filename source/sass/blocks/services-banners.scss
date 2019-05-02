@@ -66,6 +66,10 @@
   order: 1;
 }
 
+.services-banners__gallery {
+  margin-bottom: 44px;
+}
+
 @media (min-width: $tablet-width) {
   .services-banners__wrapper {
     width: $tablet-width;
@@ -84,11 +88,48 @@
 }
 
 @media (min-width: $desktop-width) {
+  .services-banners {
+    padding-bottom: 126px;
+  }
+
   .services-banners__wrapper {
     width: $desktop-width;
+    position: relative;
+  }
+
+  .services-banners__header {
+    margin-bottom: 44px;
+  }
+
+  .services-banners__content-wrapper {
+    width: 570px;
+  }
+
+  .services-banners__list {
+    margin-bottom: 72px;
+  }
+
+  .services-banners__list li {
+    text-indent: 9px;
+  }
+
+  .services-banners__list li::before {
+    left: -10px;
+    top: 0;
+  }
+
+  .services-banners__gallery {
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+
+    width: 570px;
+    margin-bottom: 0;
   }
 
   .services-banners__consultation-block {
     order: 0;
+    width: 473px;
+    margin-bottom: 56px;
   }
 }

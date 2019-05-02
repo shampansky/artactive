@@ -1,3 +1,9 @@
 .page-nav__menu {
   display: flex;
 }
+
+@media (min-width: $desktop-width) {
+  .page-nav__menu li {
+    margin-right: 58px;
+  }
+}

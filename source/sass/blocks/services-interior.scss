@@ -60,13 +60,31 @@
 
   .services-interior__button {
     width: auto;
-    padding-left: 38px;
-    padding-right: 38px;
+    padding-left: 35px;
+    padding-right: 35px;
   }
 }
 
 @media (min-width: $desktop-width) {
+  .services-interior {
+    padding-top: 128px;
+    padding-bottom: 568px;
+    background-image: url(../img/interior-print-bg-desktop.jpg);
+    background-position: bottom 100px left -68px;
+  }
+
   .services-interior__wrapper {
     width: $desktop-width;
+    padding-left: 600px;
+  }
+
+  .services-interior__header {
+    margin-bottom: 47px;
+
+    line-height: 38px;
+  }
+
+  .services-interior p:last-of-type {
+    margin-bottom: 56px;
   }
 }

@@ -64,13 +64,33 @@
 }
 
 @media (min-width: $desktop-width) {
+  .faq {
+    padding-top: 74px;
+    padding-bottom: 169px;
+  }
+
   .faq__wrapper {
     width: $desktop-width;
+  }
+
+  .faq__header {
+    margin-bottom: 56px;
   }
 
   .faq__list {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    align-content: space-between;
+    max-height: 500px;
+    margin-bottom: 23px;
+  }
+
+  .faq__list dd {
+    margin-bottom: 42px;
+  }
+
+  .faq__list > div {
+    width: 555px;
   }
 }

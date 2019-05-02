@@ -48,6 +48,10 @@
     margin-bottom: 44px;
   }
 
+  .about-us__image-wrapper {
+    text-align: center;
+  }
+
   .about-us__subheader {
     font-size: 32px;
     line-height: 40px;
@@ -63,7 +67,29 @@
 @media (min-width: $desktop-width) {
   .about-us__wrapper {
     width: $desktop-width;
+    padding-top: 104px;
+    padding-bottom: 102px;
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .about-us__image-wrapper {
+    margin-top: 11px;
+  }
+
+  .about-us__content-wrapper {
+    width: 570px;
+    padding-left: 50px;
+  }
+
+  .about-us__header {
+    margin-bottom: 64px;
+  }
+
+  .about-us__subheader {
+    margin-bottom: 50px;
+
+    line-height: 38px;
   }
 }

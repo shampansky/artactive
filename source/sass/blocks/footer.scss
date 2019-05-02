@@ -54,7 +54,16 @@
 }
 
 @media (min-width: $desktop-width) {
+  .footer {
+    padding-top: 3px;
+    padding-bottom: 4px;
+  }
+
   .footer__wrapper {
     width: $desktop-width;
+  }
+
+  .footer__designed-by {
+    display: block;
   }
 }

@@ -2,7 +2,6 @@
   position: relative;
 
   margin: 0;
-  margin-bottom: 44px;
   z-index: 2;
 }
 
@@ -141,5 +140,21 @@
 @media (min-width: $desktop-width) {
   .gallery__wrapper {
     justify-content: flex-start;
+  }
+
+  .gallery::before {
+    width: 538px;
+  }
+
+  .gallery::after {
+    width: 498px;
+  }
+
+  .gallery__navigation {
+    margin-right: 57px;
+  }
+
+  .gallery__image-caption {
+    line-height: 14px;
   }
 }

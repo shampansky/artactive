@@ -130,7 +130,21 @@
 }
 
 @media (min-width: $desktop-width) {
+  .contacts {
+    padding-top: 120px;
+    padding-bottom: 147px;
+    
+    background-image: url(../img/map-desktop.png);
+  }
+
   .contacts__wrapper {
     width: $desktop-width;
+  }
+
+  .contacts__block {
+    width: 458px;
+    padding-top: 84px;
+    padding-left: 87px;
+    padding-bottom: 96px;
   }
 }
