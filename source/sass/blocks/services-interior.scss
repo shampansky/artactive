@@ -19,6 +19,9 @@
 }
 
 .services-interior__header {
+  position: relative;
+  z-index: 10;
+
   margin: 0;
   margin-bottom: 34px;
 
@@ -27,6 +30,23 @@
   font-size: 24px;
   line-height: 30px;
   color: #383d52;
+}
+
+.services-interior__header::before {
+  content: "2";
+
+  position: absolute;
+  z-index: -1;
+  top: -45px;
+  left: 25px;
+
+  font-family: $font-stack-head;
+  font-weight: 900;
+  font-size: 200px;
+  line-height: 200px;
+  color: #ffffff;
+
+  text-shadow: 0px 0px 21px rgba(81,8,86,0.08);
 }
 
 
@@ -48,6 +68,11 @@
 
     font-size: 32px;
     line-height: 40px;
+  }
+
+  .services-interior__header::before {
+    top: -56px;
+    left: 25px;
   }
 
   .services-interior__text {
@@ -82,6 +107,11 @@
     margin-bottom: 47px;
 
     line-height: 38px;
+  }
+
+  .services-interior__header::before {
+    top: -60px;
+    left: -80px;
   }
 
   .services-interior p:last-of-type {

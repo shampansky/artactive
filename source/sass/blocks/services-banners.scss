@@ -82,6 +82,11 @@
     line-height: 40px;
   }
 
+  .services-banners__header::before {
+    top: -60px;
+    left: 25px;
+  }
+
   .services-banners__list {
     margin-bottom: 68px;
   }
@@ -99,6 +104,11 @@
 
   .services-banners__header {
     margin-bottom: 44px;
+  }
+
+  .services-banners__header::before {
+    top: -57px;
+    left: -80px;
   }
 
   .services-banners__content-wrapper {
@@ -130,6 +140,6 @@
   .services-banners__consultation-block {
     order: 0;
     width: 473px;
-    margin-bottom: 56px;
+    margin-bottom: 58px;
   }
 }
