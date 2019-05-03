@@ -2,6 +2,23 @@
   display: flex;
 }
 
+.page-nav__menu {
+  @include reset-list-style;
+}
+
+.page-nav__menu a {
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+.page-nav__menu a:hover {
+  border-bottom: 2px solid #ffffff;
+}
+
 @media (min-width: $desktop-width) {
   .page-nav__menu li {
     margin-right: 58px;

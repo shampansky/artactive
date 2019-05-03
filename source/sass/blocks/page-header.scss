@@ -1,5 +1,5 @@
 .page-header {
-  background-color: #6a3093;
+  // background-color: #6a3093;
 }
 
 .page-header__wrapper {
@@ -56,22 +56,16 @@
   cursor: pointer;
 }
 
+.page-header__order-call:hover,
+.page-header__order-call:active {
+  box-shadow: 0 0 5px 0 #ffffff inset, 0 0 5px 1px #ffffff;
+}
+
 .page-header__nav {
   display: none;
 }
 
-.page-nav__menu {
-  @include reset-list-style;
-}
 
-.page-nav__menu a {
-  font-weight: 600;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 13px;
-  line-height: 15px;
-  color: #ffffff;
-}
 
 @media (min-width: $tablet-width) {
   .page-header__wrapper {

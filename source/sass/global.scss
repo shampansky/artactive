@@ -35,6 +35,13 @@ img {
   border-radius: 999px;
 }
 
+.button:hover,
+.button:active {
+  box-shadow: 0 0 20px 2px #e22f83;
+  cursor: pointer;
+  transition: .12s;
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }

@@ -85,15 +85,17 @@
   background-color: transparent;
 }
 
-.gallery__navigation--back {
-  // margin-left: 10px;
-  // margin-right: 20px;
+.gallery__navigation--back:hover,
+.gallery__navigation--next:hover {
+  box-shadow: none;
 }
 
-.gallery__navigation--next {
-  // margin-left: 20px;
-  // margin-right: 10px;
+.gallery__navigation--back:hover svg,
+.gallery__navigation--next:hover svg {
+  fill: #fb0275;
 }
+
+
 
 @media (min-width: $tablet-width) {
   .gallery__image-caption {
