@@ -13,6 +13,7 @@
 
 }
 
+
 .hero-block__slogan {
   display: block;
   margin-bottom: 24px;
@@ -101,11 +102,28 @@
 
 @media (min-width: $desktop-width) {
   .hero-block__wrapper {
+    position: relative;
+
     width: $desktop-width;
     padding-bottom: 218px;
 
     background-image: url(../img/hero-illustration-desktop.png);
     background-position: top 87px left -95px;
+  }
+
+  .hero-block__wrapper::before {
+    content: "";
+
+    position: absolute;
+    top: 266px;
+    right: -196px;
+
+    width: 18px;
+    height: 255px;
+
+    background-image: url(../img/icon-screen-nav-1.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
   }
 
   .hero-block__wrapper::after {

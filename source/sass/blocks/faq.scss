@@ -70,7 +70,24 @@
   }
 
   .faq__wrapper {
+    position: relative;
+
     width: $desktop-width;
+  }
+
+  .faq__wrapper::before {
+    content: "";
+
+    position: absolute;
+    top: 248px;
+    right: -196px;
+
+    width: 18px;
+    height: 255px;
+
+    background-image: url(../img/icon-screen-nav-5.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
   }
 
   .faq__header {

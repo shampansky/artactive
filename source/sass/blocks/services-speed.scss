@@ -114,6 +114,21 @@
     position: relative;
   }
 
+  .services-speed__wrapper::before {
+    content: "";
+
+    position: absolute;
+    top: 160px;
+    right: -196px;
+
+    width: 18px;
+    height: 255px;
+
+    background-image: url(../img/icon-screen-nav-3-3.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+  }
+
   .services-speed__wrapper::after {
     content: "";
 

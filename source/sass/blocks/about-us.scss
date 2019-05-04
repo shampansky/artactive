@@ -67,12 +67,29 @@
 
 @media (min-width: $desktop-width) {
   .about-us__wrapper {
+    position: relative;
+
     width: $desktop-width;
     padding-top: 104px;
     padding-bottom: 102px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+  }
+
+  .about-us__wrapper::before {
+    content: "";
+
+    position: absolute;
+    top: 200px;
+    right: -196px;
+
+    width: 18px;
+    height: 255px;
+
+    background-image: url(../img/icon-screen-nav-2.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
   }
 
   .about-us__image-wrapper {
