@@ -3,6 +3,8 @@
 }
 
 .page-header__wrapper {
+  position: relative;
+
   width: $mobile-width;
   margin: 0 auto;
   padding: 21px $padding 0;
@@ -22,11 +24,26 @@
   letter-spacing: 1px;
 }
 
-.page-header__toggle {
-  width: 25px;
-  height: 16px;
+.page-header__menu-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
 
-  background-image: url(../img/icon-menu.svg);
+  display: block;
+  width: 305px;
+  padding: 55px 70px;
+
+  background-color: green;
+}
+
+.page-header__nav {
+  margin-bottom: 40px;
+}
+
+.page-header__toggle {
+  z-index: 15;
+
   background-position: top right;
   background-repeat: no-repeat;
   background-color: transparent;
@@ -35,24 +52,40 @@
   cursor: pointer;
 }
 
-.page-header__contact {
-  display: none;
+.page-header--closed .page-header__toggle {
+  width: 25px;
+  height: 16px;
+
+  background-image: url(../img/icon-menu.svg);
+}
+
+.page-header--opened .page-header__toggle {
+  width: 15px;
+  height: 15px;
+
+  background-image: url(../img/icon-cross.svg);
 }
 
 .page-header__phone {
+  display: block;
+  margin-bottom: 10px;
   font-size: 16px;
   line-height: 18px;
   font-weight: bold;
-  color: #ffffff;
+  color: #333333;
   text-decoration: none;
 }
 
 .page-header__order-call {
+  padding: 10px 14px;
+
   font-size: 11px;
   line-height: 13px;
   font-weight: 800;
-  color: #ffffff;
+  color: #fb0275;
 
+  background-color: transparent;
+  border: 2px solid #fb0275;
   cursor: pointer;
 }
 
@@ -61,11 +94,27 @@
   box-shadow: 0 0 5px 0 #ffffff inset, 0 0 5px 1px #ffffff;
 }
 
-.page-header__nav {
-  display: none;
+
+
+@media (max-width: $desktop-width) {
+  .page-header--no-js .page-header__logo {
+    margin-bottom: 10px;
+  }
+
+  .page-header--no-js .page-header__wrapper {
+    flex-direction: column;
+  }
+
+  .page-header--no-js .page-header__toggle {
+    display: none;
+  }
+
+  .page-header--no-js .page-header__menu-wrapper {
+    position: static;
+
+    padding: 20px;
+  }
 }
-
-
 
 @media (min-width: $tablet-width) {
   .page-header__wrapper {
@@ -89,12 +138,23 @@
   }
 
   .page-header__nav {
-    display: block;
+    margin-bottom: 0;
     margin-right: auto;
   }
 
   .page-nav__menu {
     margin: 0;
+  }
+
+  .page-header__menu-wrapper {
+    position: static;
+
+    display: flex;
+    align-items: center;
+    width: auto;
+    padding: 0;
+
+    background-color: transparent;
   }
 
   .page-header__contact {
@@ -104,12 +164,17 @@
 
   .page-header__phone {
     margin-right: 30px;
+    margin-bottom: 0;
     letter-spacing: 1px;
+    color: #ffffff;
   }
 
   .page-header__order-call {
     width: auto;
     padding: 9px 18px;
+
+    color: #ffffff;
+
     background-color: transparent;
     border: 2px solid #ffffff;
   }
