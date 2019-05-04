@@ -32,7 +32,7 @@
 
         <div class="page-header__contact">
           <a class="page-header__phone" href="tel:+79201488131">+7 (920) 148 81 31</a>
-          <button class="button page-header__order-call">Заказать звонок</button>
+          <button class="button page-header__order-call modal-open">Заказать звонок</button>
         </div>
       </div>
     </header>
@@ -45,7 +45,7 @@
           <p class="hero-block__description">Оперативная полиграфия и широкоформатная печать любого размера</p>
 
           <div class="hero-block__cta-wrapper">
-            <button class="button hero-block__button">Заказать печать</button>
+            <button class="button hero-block__button modal-open">Заказать печать</button>
             <p class="hero-block__delivery-info">с доставкой по Ярославлю и Ярославской области</p>
           </div>
         </div>
@@ -106,7 +106,7 @@
                   <span class="consultation-block__header">Есть вопросы?</span>
                   <span class="consultation-block__caption">Закажите консультацию</span>
                 </p>
-                <button class="button consultation-block__button">Заказать</button>
+                <button class="button consultation-block__button modal-open">Заказать</button>
               </aside>
 
 
@@ -150,7 +150,7 @@
               </p>
             </div>
 
-            <button class="button services-interior__button">Оставить заявку</button>
+            <button class="button services-interior__button modal-open">Оставить заявку</button>
           </div>
 
         </section>
@@ -163,7 +163,7 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. </p>
               <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error.</p>
             </div>
-            <form class="consultation-form consultation-form--small" action="index.html" method="post">
+            <form class="consultation-form consultation-form--small" action="https://echo.htmlacademy.ru" method="post">
               <p class="consultation-form__text">
                 <span class="consultation-form__header">Есть вопросы?</span>
                 <span class="consultation-form__caption">Оставьте заявку<br> на консультацию</span>
@@ -254,7 +254,7 @@
 
 
 
-          <form class="consultation-form consultation-form--big" action="index.html" method="post">
+          <form class="consultation-form consultation-form--big" action="https://echo.htmlacademy.ru" method="post">
             <p class="consultation-form__text">
               <span class="consultation-form__header">Остались вопросы?</span>
               <span class="consultation-form__caption">Оставьте заявку на консультацию</span>
@@ -299,6 +299,59 @@
         <p class="footer__designed-by">Designed by Sergey Strogiy</p>
       </div>
     </footer>
+
+    <div class="modal">
+      <section class="modal__content">
+        <h2 class="visually-hidden">Заказ обратного звонка</h2>
+        <p class="modal__description">
+          <span class="modal__caption">Есть вопросы?</span><br>
+          Заказжите звонок
+        </p>
+
+        <form class="modal__form" action="https://echo.htmlacademy.ru" method="post">
+          <p>
+            <label class="visually-hidden" for="modal-name">Имя</label>
+            <input class="modal__text" id="modal-name" type="text" name="name" placeholder="Имя">
+          </p>
+          <p>
+            <label class="visually-hidden" for="modal-phone">Пароль</label>
+            <input class="modal__text" id="modal-phone" type="text" name="phone" placeholder="Телефон">
+          </p>
+
+          <button class="button modal__submit" type="submit">Отправить</button>
+        </form>
+        <button class="modal__close" type="button">
+          <svg width="16" height="16">
+            <use xlink:href="#icon-modal-cross"></use>
+          </svg>
+          <span class="visually-hidden">Закрыть</span>
+        </button>
+      </section>
+    </div>
+
+  <script>
+    var modalLink = document.getElementsByClassName("modal-open");
+    var modalPopup = document.querySelector(".modal");
+    var modalClose = document.querySelector(".modal__close");
+
+    for (var i = 0; i < modalLink.length; i++) {
+      modalLink[i].addEventListener("click", function(evt) {
+        evt.preventDefault();
+        modalPopup.classList.add("modal--show");
+      });
+    }
+
+  
+
+
+    modalClose.addEventListener("click", function(evt) {
+      evt.preventDefault();
+      modalPopup.classList.remove("modal--show");
+    });
+
+
+
+  </script>
 
   </body>
 </html>
