@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1338" height="611" viewBox="0 0 1338 611">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+        opacity: 0.28;
+      }
+
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="582" y1="576.5" x2="3018" y2="576.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a044ff"/>
+      <stop offset="1" stop-color="#6a3093"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="738" x2="2862.56" xlink:href="#linear-gradient"/>
+  </defs>
+  <path id="Фигура_1_копия_2" data-name="Фигура 1 копия 2" class="cls-1" d="M582,788.749V492.3S739.244,271,1177.08,271c436.85,0,690.08,254.7,1020.46,254.7,286.65,0,459.79-166.181,650.12-215.73s169.69,36.187,169.69,36.187L2986.4,882Z" transform="translate(-582 -271)"/>
+  <path id="Фигура_1_копия_2-2" data-name="Фигура 1 копия 2" class="cls-2" d="M738,761.743V503.009s137.141-193.14,519-193.14c381,0,601.85,222.293,890,222.293,250,0,401-145.036,567-188.28s148,31.582,148,31.582l-27,467.665Z" transform="translate(-582 -271)"/>
+</svg>
