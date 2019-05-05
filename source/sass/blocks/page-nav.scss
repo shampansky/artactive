@@ -8,7 +8,7 @@
 }
 
 .page-nav__menu li {
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 }
 
 .page-nav__menu a {
@@ -18,10 +18,17 @@
   font-size: 13px;
   line-height: 15px;
   color: #333333;
+  letter-spacing: -1px;
 }
 
 .page-nav__menu a:hover {
   border-bottom: 2px solid #ffffff;
+}
+
+@media (max-width: $desktop-width) {
+  .page-nav__menu {
+    margin: 0;
+  }
 }
 
 @media (min-width: $desktop-width) {

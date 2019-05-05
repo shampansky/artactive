@@ -14,7 +14,7 @@
     <div class="main-wrapper">
 
 
-    <header class="page-header page-header--closed">
+    <header class="page-header page-header--no-js page-header--closed">
       <div class="page-header__wrapper">
         <a class="page-header__logo" href="#">Artactive</a>
 
@@ -354,6 +354,24 @@
 
 
 
+  </script>
+
+  <script type="text/javascript">
+    var pageHeader = document.querySelector('.page-header');
+    var toggle = document.querySelector('.page-header__toggle');
+
+    pageHeader.classList.remove('page-header--no-js');
+
+    toggle.addEventListener('click', function() {
+      if (pageHeader.classList.contains('page-header--opened')) {
+        pageHeader.classList.remove('page-header--opened');
+        pageHeader.classList.add('page-header--closed');
+      } else {
+        pageHeader.classList.add('page-header--opened');
+        pageHeader.classList.remove('page-header--closed');
+      }
+
+    });
   </script>
 
   </body>
