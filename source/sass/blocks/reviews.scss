@@ -84,6 +84,16 @@
   margin-right: 31px;
 }
 
+.reviews__navigation--back:hover,
+.reviews__navigation--next:hover {
+  box-shadow: none;
+}
+
+.reviews__navigation--back:hover svg,
+.reviews__navigation--next:hover svg {
+  fill: #fb0275;
+}
+
 
 
 @media (min-width: $tablet-width) {
